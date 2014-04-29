@@ -21,6 +21,7 @@
 		D20B4DFE191013E900584764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D20B4DE0191013E900584764 /* UIKit.framework */; };
 		D20B4E06191013E900584764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D20B4E04191013E900584764 /* InfoPlist.strings */; };
 		D20B4E08191013E900584764 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D20B4E07191013E900584764 /* Git_TestTests.m */; };
+		D20B4E13191018E100584764 /* AKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D20B4E12191018E100584764 /* AKTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D20B4E03191013E900584764 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		D20B4E05191013E900584764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D20B4E07191013E900584764 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D20B4E11191018E100584764 /* AKTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTest.h; sourceTree = "<group>"; };
+		D20B4E12191018E100584764 /* AKTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		D20B4DD0191013E900584764 = {
 			isa = PBXGroup;
 			children = (
+				D20B4E11191018E100584764 /* AKTest.h */,
+				D20B4E12191018E100584764 /* AKTest.m */,
 				D20B4DE2191013E900584764 /* Git Test */,
 				D20B4E01191013E900584764 /* Git TestTests */,
 				D20B4DDB191013E900584764 /* Frameworks */,
@@ -252,6 +257,7 @@
 				D20B4DED191013E900584764 /* AKAppDelegate.m in Sources */,
 				D20B4DF3191013E900584764 /* AKViewController.m in Sources */,
 				D20B4DE9191013E900584764 /* main.m in Sources */,
+				D20B4E13191018E100584764 /* AKTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
